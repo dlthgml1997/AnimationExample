@@ -18,5 +18,5 @@ pivot
 
 참고(출처)
 ====
-  - <h6>https://grandslam.tistory.com/entry/SurfaceView-활용하기 </h6>
-  - <h6>https://winmargo.tistory.com/74 </h6>
+  - https://grandslam.tistory.com/entry/SurfaceView-활용하기
+  - https://winmargo.tistory.com/74
