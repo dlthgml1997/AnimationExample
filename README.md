@@ -16,6 +16,10 @@ pivot
      - pivotX : X 좌표의 중심점
      - pivotY : Y 좌표의 중심점
 
+containsKey(Object key)
+-----
+     key 객체와 대응되는 객체가 있다면 true를 리턴함
+
 
 참고(출처)
 ====
