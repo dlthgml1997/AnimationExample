@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".Fragment.AnimatorFragment">
+    <TextView
+            android:text="ValueAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView"/>
+
+    <ImageView
+            android:src="@android:drawable/star_big_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/imageView"
+    />
+
+    <TextView
+            android:text="ObjectAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView2"/>
+    <ImageView
+            android:src="@android:drawable/btn_star_big_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/imageView2"/>
+    <TextView
+            android:text="ViewPropertyAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView3"/>
+    <ImageView
+            android:src="@android:drawable/btn_star_big_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/imageView3"/>
+    <TextView
+            android:text="AnimatorSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView4"/>
+    <ImageView
+            android:src="@android:drawable/btn_star_big_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/imageView4"/>
+    <ImageView
+            android:src="@android:drawable/btn_star_big_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/imageView5"/>
+</LinearLayout>

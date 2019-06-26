@@ -26,8 +26,12 @@ class MainFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        button_animatelayoutchanges.setOnClickListener {
-            findNavController().navigate(R.id.)
+        button_layoutanimation.setOnClickListener {
+            findNavController().navigate(R.id.action_mainFragment_to_layoutAnimationFragment)
+        }
+
+        button_animator.setOnClickListener {
+            findNavController().navigate(R.id.action_mainFragment_to_animatorFragment)
         }
     }
 }

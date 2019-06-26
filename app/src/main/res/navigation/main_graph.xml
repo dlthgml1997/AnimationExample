@@ -5,10 +5,13 @@
 
     <fragment android:id="@+id/mainFragment" android:name="com.example.animationpractice.Fragment.MainFragment"
               android:label="fragment_main">
-        <action android:id="@+id/action_mainFragment_to_layoutAnimateionFragment"
+        <action android:id="@+id/action_mainFragment_to_layoutAnimationFragment"
                 app:destination="@id/layoutAnimateionFragment"/>
+        <action android:id="@+id/action_mainFragment_to_animatorFragment" app:destination="@id/animatorFragment"/>
     </fragment>
     <fragment android:id="@+id/layoutAnimateionFragment"
-              android:name="com.example.animationpractice.Fragment.LayoutAnimateionFragment"
-              android:label="fragment_layout_animateion" tools:layout="@layout/fragment_layout_animateion"/>
+              android:name="com.example.animationpractice.Fragment.LayoutAnimationFragment"
+              android:label="fragment_layout_animateion" tools:layout="@layout/fragment_layout_animation"/>
+    <fragment android:id="@+id/animatorFragment" android:name="com.example.animationpractice.Fragment.AnimatorFragment"
+              android:label="fragment_animator" tools:layout="@layout/fragment_animator"/>
 </navigation>
