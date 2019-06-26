@@ -19,6 +19,11 @@ pivot
 containsKey(Object key)
 -----
      key 객체와 대응되는 객체가 있다면 true를 리턴함
+     
+setClassLoader
+-----
+     - public void setClassLoader (ClassLoader loader)
+     - Object의 class를 설정함
 
 
 참고(출처)
